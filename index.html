@@ -1,15 +1,14 @@
-<!DOCTYPE html>
-
+<!DOCTYPE HTML>
 <html>
 	<head>
 		<meta charset="utf-8">
+		<script type="text/javascript" src="Image-Slider-Pager.js"></script>
+		<link rel="stylesheet" type="text/css" href="Image-Slider-Pager.css">
 	</head>
+
 	<body>
-		<h3>Basic Image Slider with pure JavaScript, no jquery</h3>
-    <p>Note: the pictures using here are from the internet:</p>
-    <p>http://tympanus.net/codrops/2011/01/03/parallax-slider/</p>
 		<div class="container">
-			<div class="image-slider-wrapper">
+			<div class="slider_wrapper">
 				<ul id="image_slider">
 					<li><img src="https://dl.dropboxusercontent.com/u/65639888/image/1.jpg"></li>
 					<li><img src="https://dl.dropboxusercontent.com/u/65639888/image/4.jpg"></li>
@@ -17,10 +16,11 @@
 					<li><img src="https://dl.dropboxusercontent.com/u/65639888/image/1.jpg"></li>
 					<li><img src="https://dl.dropboxusercontent.com/u/65639888/image/4.jpg"></li>
 					<li><img src="https://dl.dropboxusercontent.com/u/65639888/image/5.jpg"></li>
-				</ul>			
-				<div class="pager">
-				</div>
+				</ul>					
+				<span class="nvgt" id="prev"></span>
+				<span class="nvgt" id="next"></span>		
 			</div>
+			<ul id="pager">
+			</ul>
 		</div>
 	</body>
-</html>
